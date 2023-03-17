@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: url("images/background.jpg");
+    background-size: cover;
+}
+
+body, html{
+    font-size: 10px;
+    font-family: sans-serif;
+    color: #FAF7F0;
+}
+
+.keys{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+
+.sound{
+    display: block;
+}
+
+.key{
+    font-size: 1.5rem;
+    padding: 2rem;
+    border: solid white 3px;
+    margin: 1.5rem;
+    width: 10rem;
+    box-shadow: 2px 2px 2px gainsboro;
+    transition: all .08s;
+    background: rgba(0, 0, 0, 0.4);
+}
+
+.playing{
+    transform: scale(1.2);
+    border-color: #ffc600;
+    box-shadow: 0 0 1rem #ffc600;
+}
+
+kbd {
+    display: block;
+    font-size: 4rem;
+  }
